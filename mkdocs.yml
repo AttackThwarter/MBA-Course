@@ -1,0 +1,66 @@
+site_name: دوره MBA - گروه 13
+site_url: https://AttackThwarter.github.io/MBA-Course
+repo_url: https://github.com/AttackThwarter/MBA-Course
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: fa
+  direction: rtl
+  palette:
+    - scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: حالت شب
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: حالت روز
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+
+nav:
+  - خانه: index.md
+  - مدیریت استراتژیک:
+      - مدیریت عمومی: strategy/general.md
+      - برنامه ریزی استراتژیک: strategy/planning.md
+      - طراحی مدل کسب و کار: strategy/business-model.md
+  - بازاریابی و فروش:
+      - مدیریت بازاریابی: marketing/marketing-mgmt.md
+      - مدیریت فروش: marketing/sales.md
+      - مدیریت تبلیغات: marketing/ads.md
+      - مدیریت برند: marketing/branding.md
+      - مدیریت ارتباط با مشتری: marketing/crm.md
+      - دیجیتال مارکتینگ: marketing/digital.md
+  - منابع انسانی و رفتار:
+      - رفتار سازمانی: hr/ob.md
+      - مدیریت منابع انسانی: hr/hrm.md
+      - قانون کار: hr/labor-law.md
+  - مهارت‌های نرم:
+      - بیان و سخنوری: skills/speaking.md
+      - مهارت‌های ارتباطی: skills/communication.md
+      - مهارت‌های مذاکره: skills/negotiation.md
+      - زبان بدن: skills/body-language.md
+  - مالی و اقتصادی:
+      - مدیریت مالی: finance/financial.md
+      - اقتصاد کاربردی: finance/economics.md
+  - مدیریت پروژه:
+      - مدیریت پروژه: project/pm.md
+      - پروژه پایانی: project/final-project.md
