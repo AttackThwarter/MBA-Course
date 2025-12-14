@@ -1,0 +1,31 @@
+/* استایل سبز پاستیلی (Scientific) */
+.md-typeset .admonition.pastel-green {
+  border-color: #6ece99 !important;
+  background-color: #dcfce7 !important;
+  color: #064e3b !important; /* <--- این خط جدید: رنگ متن سبز تیره */
+}
+.md-typeset .admonition.pastel-green .admonition-title {
+  background-color: #86efac !important;
+  border-bottom-color: #6ece99 !important;
+  color: #14532d !important;
+  font-weight: bold;
+}
+.md-typeset .admonition.pastel-green .admonition-title::before {
+  background-color: #14532d !important;
+}
+
+/* استایل صورتی پاستیلی (Artistic) */
+.md-typeset .admonition.pastel-pink {
+  border-color: #f9a8d4 !important;
+  background-color: #fdf2f8 !important;
+  color: #831843 !important; /* <--- این خط جدید: رنگ متن زرشکی تیره */
+}
+.md-typeset .admonition.pastel-pink .admonition-title {
+  background-color: #fbcfe8 !important;
+  border-bottom-color: #f9a8d4 !important;
+  color: #831843 !important;
+  font-weight: bold;
+}
+.md-typeset .admonition.pastel-pink .admonition-title::before {
+  background-color: #831843 !important;
+}
