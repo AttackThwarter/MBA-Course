@@ -1,6 +1,6 @@
 site_name: دوره MBA - گروه 13
-site_url: https://YOUR_USERNAME.github.io/MBA-Course
-repo_url: https://github.com/YOUR_USERNAME/MBA-Course
+site_url: https://AttackThwarter.github.io/MBA-Course
+repo_url: https://github.com/AttackThwarter/MBA-Course
 edit_uri: edit/main/docs/
 
 theme:
@@ -29,6 +29,7 @@ theme:
 
 
 extra_javascript:
+  - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
@@ -80,3 +81,7 @@ nav:
   - مدیریت پروژه:
       - مدیریت پروژه: project/pm.md
       - پروژه پایانی: project/final-project.md
+
+
+extra_css:
+  - stylesheets/extra.css
